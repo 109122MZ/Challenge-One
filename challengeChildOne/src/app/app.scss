@@ -1,0 +1,13 @@
+.kreis{
+        width: 200px; // Breite einstellen
+    height: 200px; // Höhe einstellen
+    background-color: rgb(0, 3, 196); // Innenfarbe einstellen
+    color: rgb(255, 255, 255); // Text färben
+    border-radius: 900px; // Rundungen einstellen
+    padding: 30px; // Innenabstand einstellen
+    margin: 300px; // Aussenabstand einstellen
+    display: flex; // Aktivierung
+    justify-content: center; // Rechts abbiegen
+    align-items: center; // Oben steigen
+    border: 5px red solid; // Randfarbe einstellen
+}
