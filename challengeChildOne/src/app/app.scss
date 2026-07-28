@@ -7,8 +7,8 @@
     padding: 30px; // Innenabstand einstellen
     margin: 350px; // Aussenabstand einstellen
     display:  flex; // Aktivierung
-    justify-content:center; // Rechts, Mitte, Links abbiegen
-    align-items:center; // Oben, Mitte, Links steigen
+    justify-content:center; // Rechts abbiegen
+    align-items:center; // Oben steigen
     border: 5px rgb(255, 0, 0) solid; // Randfarbe einstellen
 
     .kreiszwei{
@@ -19,6 +19,42 @@
     border: 5px orange solid;
 
 }
+}
+
+.kreisdrei{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: black 30px solid;
+    border-radius: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .kreisvier{
+     width: 100px;
+     height: 100px;
+     background-color: black;
+     border-radius: 900px;   
+    }
+}
+
+.Quadrateins{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Quadratzwei{
+     width: 100px;
+     height: 100px;
+     background-color: azure;
+        
+    }
 }
 
 
