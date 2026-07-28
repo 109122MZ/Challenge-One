@@ -1,49 +1,24 @@
 .kreiseins{
         width: 200px; // Breite einstellen
     height: 200px; // Höhe einstellen
-    background-color: rgb(0, 26, 255); // Innenfarbe einstellen
+    background-color: rgb(0, 70, 255); // Innenfarbe einstellen
     color: hwb(0 0% 100%); // Text färben
     border-radius: 900px; // Rundungen einstellen
-    padding: 0px; // Innenabstand einstellen
-    margin: 50px; // Aussenabstand einstellen
+    padding: 30px; // Innenabstand einstellen
+    margin: 350px; // Aussenabstand einstellen
     display:  flex; // Aktivierung
-    justify-content:center; // Rechts abbiegen
-    align-items:center; // Oben steigen
-    border: 10px rgb(234, 255, 0) solid; // Randfarbe einstellen
-}
-.kreiszwei{
-    background-color: rgb(255, 0, 204);
-    width: 200px;
-    height: 200px;
-    border-radius: 900px;
-    margin: 50px;
-    align-items:center;
-    justify-content:center;
-    display: flex;
-    border: 10px red solid;
+    justify-content:center; // Rechts, Mitte, Links abbiegen
+    align-items:center; // Oben, Mitte, Links steigen
+    border: 5px rgb(255, 0, 0) solid; // Randfarbe einstellen
 
-}
-.Quadrateins{
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 200px;
-    border-radius: 0px;
-    margin: 50px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    border: 10px blue solid;
-
-}
-.Quadratzwei{
+    .kreiszwei{
+    width: 100px;
+    height: 100px;
     background-color: green;
-    width: 200px;
-    height: 200px;
-    border-radius: 0px;
-    margin: 50px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    border: 10px orange solid;
+    border-radius: 900px;
+    border: 5px orange solid;
+
 }
+}
+
+
