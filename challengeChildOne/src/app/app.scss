@@ -17,44 +17,42 @@
     background-color: green;
     border-radius: 900px;
     border: 5px orange solid;
-
-}
-}
-
-.kreisdrei{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    border: black 30px solid;
-    border-radius: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+    .kreisdrei{
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        border-radius: 99px;
+        border: 5px purple solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .kreisvier{
-     width: 100px;
-     height: 100px;
-     background-color: black;
-     border-radius: 900px;   
-    }
-}
-
-.Quadrateins{
-    width: 200px;
-    height: 200px;
-    background-color: orange;
-    border-radius: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .Quadratzwei{
-     width: 100px;
-     height: 100px;
-     background-color: azure;
+        .kreisvier{
+        width: 25px;
+        height: 25px;
+        background-color: plum;
+        border-radius: 900px;
+        border: 5px brown solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
+        .kreisfünf{
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 900px;
+        border: 3px gold solid;
+
+        }        }
     }
 }
+}
+
+
 
 
