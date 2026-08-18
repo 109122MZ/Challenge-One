@@ -1,58 +1,8 @@
 .kreiseins{
-        width: 200px; // Breite einstellen
-    height: 200px; // Höhe einstellen
-    background-color: rgb(0, 70, 255); // Innenfarbe einstellen
-    color: hwb(0 0% 100%); // Text färben
-    border-radius: 900px; // Rundungen einstellen
-    padding: 30px; // Innenabstand einstellen
-    margin: 350px; // Aussenabstand einstellen
-    display:  flex; // Aktivierung
-    justify-content:center; // Rechts abbiegen
-    align-items:center; // Oben steigen
-    border: 5px rgb(255, 0, 0) solid; // Randfarbe einstellen
-
-    .kreiszwei{
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 5px black solid;
     border-radius: 900px;
-    border: 5px orange solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .kreisdrei{
-        width: 50px;
-        height: 50px;
-        background-color: aqua;
-        border-radius: 99px;
-        border: 5px purple solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .kreisvier{
-        width: 25px;
-        height: 25px;
-        background-color: plum;
-        border-radius: 900px;
-        border: 5px brown solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        .kreisfünf{
-        width: 10px;
-        height: 10px;
-        background-color: red;
-        border-radius: 900px;
-        border: 3px gold solid;
-
-        }        }
-    }
 }
-}
-
-
-
-
