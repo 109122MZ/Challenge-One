@@ -1,19 +1,12 @@
-.kreiseins{
-    width: 100%;
-    height: 200px;
-    background-color: aqua;
-    border: 5px black solid;
-    border-radius: 0px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-
-    .kreiszwei{
-    width: 150px;
-    height: 150px;
-    background-color:aqua;
-    border: 6px black solid;
-    border-radius: 900px;
-}
+.quadrateins{
+  background-color: rgba(255, 166, 0, 0.829);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  p{
+    margin: 10px;
+  }
 
 }
