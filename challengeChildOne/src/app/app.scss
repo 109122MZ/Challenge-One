@@ -11,7 +11,12 @@
 
 }
 
-.kreiseins{
+.Hintergrund{
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+  padding: 50px;
+  .kreiseins{
   width: 200px;
   height: 200px;
   background-color: black;
@@ -19,18 +24,32 @@
   border-radius: 900px;
 
 }
+}
 
-.bär{
+.hintergrund2{
+    width: 100%;
+  height: 300px;
+  background-color: rgb(0, 255, 42);
+  padding: 50px;
+  .bär{
   border-radius: 100px;
   border: 5px solid aqua;
 }
+}
 
-.kreiszwei{
+
+.hintergrund4{
+  background-color: rgb(255, 0, 0);
+  padding: 50px;
+  width: 100%;
+  height: 300px;
+  .kreiszwei{
   background-color: aqua;
   width: 200px;
   height: 200px;
   border: 7px black solid;
   border-radius: 900px
+}
 }
 
 .delfin{
